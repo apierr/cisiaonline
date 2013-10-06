@@ -1,0 +1,11 @@
+{
+    "name":  "cisia",
+    "version": "0.0.1",
+    "dependencies": {
+    	"requirejs": "latest",
+    	"requirejs-text": "latest",
+        "mathjax-lazyload": "latest",
+		"mustache": "latest",
+		"jquery": "latest"
+    }
+}

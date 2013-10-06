@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Cisia on line</title>
+    <!--
+    TODO 1: I should overrid the requirejs load function in order to remove MathJax from here
+    TODO 2: I should use a locale library for MathJax by using bower
+  -->
+<script type='text/javascript' src='http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&delayStartupUntil=configured'></script>
+	<script data-main="src/main" src="./bower_components/requirejs/require.js"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <section id="main" visibility:"hidden">
+    	<div id="problems">
+    	</div>
+    </section>
+    <div class="modal hide fade" id="modal"></div>
+</body>
+</html>
