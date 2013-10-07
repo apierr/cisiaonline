@@ -14,7 +14,7 @@
     });
 
     require([
-    	'./app'
-    	], function(app) {
+        './app'
+    ], function(app) {
 	});
 }());
